@@ -59,5 +59,5 @@ Libraries    : pandas, sklearn, matplotlib, numpy, seaborn
 
 <pre>
 Duration     : September 2020
-Last Update  : 10.08.2020
+Last Update  : 10.12.2020
 </pre>

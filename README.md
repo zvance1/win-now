@@ -12,6 +12,7 @@ The National Football League is just as much a business as Microsoft, Apple, and
 
 # Data Description
 Dataset 1: [SpotTrac](https://www.spotrac.com/nfl/positional/breakdown/2019/)
+
 Dataset 2: [Over the Cap](https://overthecap.com/positional-spending/)
 
 I used a mix of dataset 1 and 2 to gather the positinal data into an excel spreadsheet.  Dataset 1 contains the special teams information, but is less specific than dataset 2, so I use dataset 2 for the positional allocations, and dataset 1 for the special teams data.  Dataset 2 goes back to 2013, so that is where I begin.  The dataset is 192 rows (32 * 6 years for 2013-2018) and contains 22 features.
@@ -21,6 +22,7 @@ I used a mix of dataset 1 and 2 to gather the positinal data into an excel sprea
 **Data Source:**
 <br>
 [SpotTrac](https://www.spotrac.com/nfl/positional/breakdown/2019/)
+
 [Over the Cap](https://overthecap.com/positional-spending/)
 
 

@@ -11,11 +11,10 @@ The goal for NFL teams is simple: win games, but the question is, how do they do
 The National Football League is just as much a business as Microsoft, Apple, and every other for profit company. In the NFL, each team’s front office works to put their product on the field: a football team. Just like any other business, the company is only as good as its product and so every organization within the NFL wants to put together the best team possible with the measurement of success being the number of wins accumulated by the end of the season. With a good team, more money is made in many ways such as merchandise, ticket sales, earnings from any playoff games, and more. The goal for every business it to make as much money as possible and generally the better the team is, the more wins they earn, the more money the team will make. There are many approaches to putting together a winning football team and many parts that go into it for each of the 32 teams all with the same goal. For this project, the focus will be put on the allocation of money to the players, by position, within the reigns of the salary cap.
 
 # Data Description
-You may create a yelp account here: [Yelp Developer Page](https://www.yelp.com/developers).  And once an account is created, create an app.  Once the app is created, from the manage app page there will be a Client ID and API key.  Put the Client Id in a 'auth' section of the secret.cfg file, and the API key in the 'token' section of the same file - further described in the technical report.
+Dataset 1: [SpotTrac](https://www.spotrac.com/nfl/positional/breakdown/2019/)
+Dataset 2: [Over the Cap](https://overthecap.com/positional-spending/)
 
-I created a list of categories that I believed would be interesting to college students.  The reason I spent the time going through all these groups rather than just simply seraching for terms like 'food' or 'fun' is because of a limitation with the yelp API.  For any one particular query, a maximum of 1,000 businesses may be obtained with it (offset cannot be used above 1,000) and so with breaking the calls down to more specific categories, that minimizes the number of calls that return a number of businesses greater than 1,000 which results in more data for us both in numbers and of higher quality as less is missing.
-
-Looping through and querying for each category, I ended up with 8752 rows of data with 17 columns.  The API docs are available here: [Yelp API Docs](https://www.yelp.com/developers/documentation/v3/business_search).
+I used a mix of dataset 1 and 2 to gather the positinal data into an excel spreadsheet.  Dataset 1 contains the special teams information, but is less specific than dataset 2, so I use dataset 2 for the positional allocations, and dataset 1 for the special teams data.  Dataset 2 goes back to 2013, so that is where I begin.  The dataset is 192 rows (32 * 6 years for 2013-2018) and contains 22 features.
 
 # Summary of Files
 
@@ -27,22 +26,22 @@ Looping through and querying for each category, I ended up with 8752 rows of dat
 
 **Python Notebooks:**
 <br>
-[ML Data Analysis](https://github.com/zvance1/come-to-umbc/blob/master/notebooks/clean-and-explore.ipynb)
+[ML Data Analysis](https://github.com/zvance1/win-now/blob/main/notebooks/ml-analysis.ipynb)
 Note: Not all exploratory analysis made it into the final techincal report - only what I saw as most relevant.
 <br>
-[Technical Notebook](https://github.com/zvance1/come-to-umbc/blob/master/notebooks/technical-report.ipynb)
+[Technical Notebook](https://github.com/zvance1/win-now/blob/main/notebooks/technical-report.ipynb)
 
 **Data Folder (all data in csv format, used in our final python notebooks):**
 <br>
-[Data](https://github.com/zvance1/come-to-umbc/tree/master/data)
+[Data](https://github.com/zvance1/win-now/tree/main/data)
 
 **Data Visualizations Folder (all visualizations used in our final python notebook):**
 <br>
-[Data Visualizations](https://github.com/zvance1/come-to-umbc/tree/master/images)
+[Data Visualizations](https://github.com/zvance1/win-now/tree/main/images)
 
-**Python Folder (python technical report notebook, and a notebook that fetches the data, and another for the exploration):**
+**Python Folder (python technical report notebook, and a notebook for the ML analysis):**
 <br>
-[Python Files and Notebooks](https://github.com/zvance1/come-to-umbc/tree/master/notebooks)
+[Python Files and Notebooks](https://github.com/zvance1/win-now/tree/main/notebooks)
 
 
 # Project Info

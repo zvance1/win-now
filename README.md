@@ -43,7 +43,7 @@ Note: Not all exploratory analysis made it into the final techincal report - onl
 <br>
 [Data Visualizations](https://github.com/zvance1/win-now/tree/main/images)
 
-**Python Folder (python technical report notebook, and a notebook for the ML analysis):**
+**Python Folder (python technical report notebook, notebook for the ML analysis, and one for cleaning):**
 <br>
 [Python Files and Notebooks](https://github.com/zvance1/win-now/tree/main/notebooks)
 

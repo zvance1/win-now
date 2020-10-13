@@ -28,7 +28,10 @@ I used a mix of dataset 1 and 2 to gather the positinal data into an excel sprea
 
 **Python Notebooks:**
 <br>
+[Data Load and Clean](https://github.com/zvance1/win-now/blob/main/notebooks/clean-data.ipynb)
+<br>
 [ML Data Analysis](https://github.com/zvance1/win-now/blob/main/notebooks/ml-analysis.ipynb)
+
 Note: Not all exploratory analysis made it into the final techincal report - only what I saw as most relevant.
 <br>
 [Technical Notebook](https://github.com/zvance1/win-now/blob/main/notebooks/technical-report.ipynb)

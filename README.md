@@ -47,6 +47,10 @@ Note: Not all exploratory analysis made it into the final techincal report - onl
 <br>
 [Python Files and Notebooks](https://github.com/zvance1/win-now/tree/main/notebooks)
 
+**Youtube link to presentation:**
+<br>
+[Presentation](https://youtu.be/KfMakVmQK5k)
+
 
 # Project Info
 <pre>
